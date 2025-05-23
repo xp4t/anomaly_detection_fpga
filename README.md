@@ -12,14 +12,15 @@
 - Uses **Inception V3** CNN architecture.
 - Optimized using Vitis AI tools (quantization, pruning).
 - Deployment-ready `.xmodel` for FPGA and `.h5` for CPU.
-
+- 
 ## File Structure
 
-├── code.py # Code for running the model on FPGA
-├── anomaly_detection.py # CPU-based anomaly detection pipeline
-├── anomaly_detection_model.h5 # Keras model for CPU execution
-├── anomaly_detection_model.xmodel # Compiled model for FPGA execution
-├── README.md # Project documentation (this file)
+- `code.py` – Code for running the model on FPGA (Vitis AI)
+- `anomaly_detection.py` – CPU-based anomaly detection pipeline (TensorFlow)
+- `anomaly_detection_model.h5` – Trained Keras model for CPU execution
+- `anomaly_detection_model.xmodel` – Compiled model for FPGA inference
+- `README.md` – Project documentation (this file)
+
 
 
 ## Requirements
