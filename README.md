@@ -43,8 +43,8 @@ pip install -r requirements.txt
 ### FPGA Execution
 
 - Xilinx ZCU102 FPGA board
-- Vitis AI 1.4+
-- Vitis AI Runtime (VART)
+- Vitis AI 3.5
+- Vitis AI Boot Image
 - Compiled `.xmodel` file
 
 ## Usage
