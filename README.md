@@ -49,32 +49,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-### CPU-Based Detection
-
-Run anomaly detection on a video file using:
-
-```bash
-python anomaly_detection.py --video path/to/video.mp4 --threshold 0.5
-```
-
-Output includes prediction, confidence, and visualizations saved in a timestamped folder.
-
-### FPGA-Based Detection
-
-1.
-Ensure that the ZCU102 SDCard has been flashed with the correct version of the image file (``xilinx-zcu102-dpu-v2022.2-v3.0.0.img.gz``) and boots correctly before proceeding:
-
-- Vitis AI 3.5 uses [the same ZCU102 image files adopted already in Vitis AI 3.0](https://xilinx.github.io/Vitis-AI/3.0/html/docs/quickstart/mpsoc.html), build with Vitis/Petalinux 2022.2 release, in case of MPSoC (ZCU102, ZCU104, KV260) boards;
-
-- once the board is on, follow the instructions reported in [Run The Vitis-AI (3.0) Examples](https://xilinx.github.io/Vitis-AI/3.0/html/docs/quickstart/mpsoc.html#run-the-vitis-ai-examples) to complete the Vitis-AI setup on the board.
-  
-3. Deploy using `code.py` (adapted to your platform's Python API for VART)
-
-```bash
-python3 code.py
-```
-
-Ensure your `.xmodel` and preprocessed video data are available on the target platform.
+Will Update in Detail as Time Permits
 
 ## Performance
 
