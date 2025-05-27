@@ -74,8 +74,7 @@ Will Update in Detail as Time Permits
 If you use this work or base any project on it, please cite:
 
 ```
-IntelliWatch: Real-Time Anomaly Detection Using FPGA-Powered CNN, 
-BTech Project Report, ASIET, 2025.
+IntelliWatch: Real-Time Anomaly Detection Using FPGA-Powered CNN, ASIET, 2025.
 ```
 
 ## License
